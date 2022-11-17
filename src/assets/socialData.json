@@ -1,0 +1,28 @@
+{
+  "SocialNetworks" : [
+    {
+      "SocialNetworkName" : "Facebook",
+      "NameTag" : "nathanf",
+      "Followers" : 1987 ,
+      "NewFollowers": 12
+    },
+    {
+      "SocialNetworkName" : "Twitter",
+      "NameTag" : "nathanf",
+      "Followers" : 1044,
+      "NewFollowers" : 99
+    },
+    {
+      "SocialNetworkName" : "Twitter",
+      "NameTag" : "realnathanf",
+      "Followers" : 11000,
+      "NewFollowers" : 1099
+    },
+    {
+      "SocialNetworkName" : "Youtube",
+      "NameTag" : "Nathan F.",
+      "Followers" : 8239,
+      "NewFollowers" : 144
+    }
+  ]
+}

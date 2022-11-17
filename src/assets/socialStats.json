@@ -1,0 +1,52 @@
+{
+  "SocialStats" : [
+    {
+      "SocialNetworkName" : "Facebook",
+      "StatName" : "Pages Views",
+      "StatNumber" : 87,
+      "StatGrowth" : 3
+    },
+    {
+      "SocialNetworkName" : "Facebook",
+      "StatName" : "Likes",
+      "StatNumber" : 52,
+      "StatGrowth" : -2
+    },
+    {
+      "SocialNetworkName" : "Instagram",
+      "StatName" : "Likes",
+      "StatNumber" : 5462,
+      "StatGrowth" : 2257
+    },
+    {
+      "SocialNetworkName" : "Instagram",
+      "StatName" : "Profile Views",
+      "StatNumber" : 52000,
+      "StatGrowth" : 1375
+    },
+    {
+      "SocialNetworkName" : "Twitter",
+      "StatName" : "Retweets",
+      "StatNumber" : 117,
+      "StatGrowth" : 303
+    },
+    {
+      "SocialNetworkName" : "Twitter",
+      "StatName" : "Likes",
+      "StatNumber" : 507,
+      "StatGrowth" : 553
+    },
+    {
+      "SocialNetworkName" : "Youtube",
+      "StatName" : "Likes",
+      "StatNumber" : 107,
+      "StatGrowth" : -19
+    },
+    {
+      "SocialNetworkName" : "Youtube",
+      "StatName" : "Total Views",
+      "StatNumber" : 1407,
+      "StatGrowth" : -12
+    }
+  ]
+}
