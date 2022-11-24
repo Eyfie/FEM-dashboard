@@ -1,21 +1,25 @@
+
 import { useState, useEffect } from 'react'
+import SocialCard from './components/SocialCard';
 import './App.css'
 
+
+
+export interface SocialData {
+  SocialNetworkName: string;
+  NameTag: string;
+  Followers: number;
+  NewFollowers: number;
+}
+
+export interface SocialStat {
+  SocialNetworkName: string;
+  StatName: string;
+  StatNumber: number;
+  StatGrowth: number;
+}
+
 function App() {
-
-  interface SocialData {
-    SocialNetworkName: string;
-    NameTag: string;
-    Followers: number;
-    NewFollowers: number;
-  }
-
-  interface SocialStat {
-    SocialNetworkName: string;
-    StatName: string;
-    StatNumber: number;
-    StatGrowth: number;
-  }
 
   const [socialsData, setSocialsData] = useState<SocialData[]>([]);
   const [socialsStat, setSocialsStat] = useState<SocialStat[]>([]);
@@ -86,12 +90,12 @@ function App() {
           <input type="checkbox" name="darkmode"></input>
         </div>
       </header>
-      {/* <section>
-        {socialsData.map((socialData: SocialData[]) => {
-          <SocialDataCard {...socialData}/>
+      <section>
+        {socialsData?.map((SocialData: SocialData, SCardIndex) => {
+          return <SocialCard  {...SocialData} CardKey={SCardIndex}/>
         })}
       </section>
-      <section>
+      {/* <section>
         <h2>Overview - Today</h2
         {socialsStat.map((socialStat: SocialStat[]) => {
           <SocialStatCard {...socialStat} />
